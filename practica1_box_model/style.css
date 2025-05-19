@@ -11,35 +11,66 @@ display: block
 funciona asi:
 -si los elementos tienen contenido 
 - o tiene un tamaño definido
+
+Margin:
+-Determina el espacio entre los elementos 
+-Solo aplica a elementos display block
+-Determinar el computado de margenes 
+-Colapso de margenes 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .box{
-    border-top-color: #ff008c;
+    border-top-color: #fa5db3;
+    border-top-color: #df84f1;
     border-top-style: groove;
-    border-top-width: 10px;
-    border-bottom-color:rgb(114, 150, 114) ;
+    border-top-width: 5px;
+    border-bottom-color:rgb(250, 97, 186) ;
     border-bottom-style:groove ;
     border-bottom-width:10px;
-    border-left-color:rgb(83, 83, 248) ;
+    border-left-color:rgb(224, 152, 188) ;
     border-left-style:groove ;
     border-left-width:10px;
-    border-right-color:blueviolet ;
+    border-right-color:rgb(230, 105, 220) ;
     border-right-style:groove ;
     border-right-width:10px;
+
 }
 
 .box1{
-    background: pink;
+    margin: 20px 40px ;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background: rgb(223, 89, 167);
     padding: 50px 45px 3px;
     display: block;
-    height: 100px;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+    
     
  
 }
 
 .box2{
-    background: palevioletred;
+    background: rgb(240, 58, 118);
     padding: 2px 4px 6px 8px;
     display: block;
     height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    margin-top: 100px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
 }
