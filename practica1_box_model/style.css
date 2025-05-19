@@ -1,0 +1,45 @@
+/*
+Box Model:
+- solo funciona adecuandamente en el elemento
+display: block
+- div es una etiqueta que tiene por defecto display:block
+- funciona si:
+      - las cajas o los elementos tienen contenidos
+      - comportamiento por defento:
+      - ocupa todo el ancho de pantalla
+      -altura depende del cotenido 
+funciona asi:
+-si los elementos tienen contenido 
+- o tiene un tamaño definido
+*/
+
+.box{
+    border-top-color: #ff008c;
+    border-top-style: groove;
+    border-top-width: 10px;
+    border-bottom-color:rgb(114, 150, 114) ;
+    border-bottom-style:groove ;
+    border-bottom-width:10px;
+    border-left-color:rgb(83, 83, 248) ;
+    border-left-style:groove ;
+    border-left-width:10px;
+    border-right-color:blueviolet ;
+    border-right-style:groove ;
+    border-right-width:10px;
+}
+
+.box1{
+    background: pink;
+    padding: 50px 45px 3px;
+    display: block;
+    height: 100px;
+    
+ 
+}
+
+.box2{
+    background: palevioletred;
+    padding: 2px 4px 6px 8px;
+    display: block;
+    height: 200px;
+}
